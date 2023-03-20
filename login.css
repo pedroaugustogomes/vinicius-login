@@ -1,0 +1,97 @@
+
+body{
+    margin: 0px;
+    position: relative;
+    height: 97dvh;
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(ceuestrelado3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+h1 img{
+    width: 400px;
+}
+
+main{
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #4CAF50;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 13px 0px rgba(255, 255, 255, 0.699);
+    padding: 20px;
+
+    
+}
+
+p#login{
+    color: black;
+    font-size: small;
+}
+
+p#normal{
+    color: white;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(209, 209, 209);
+}
+
+.meu-botao {
+    background-color: #5a5a5a; /* Define a cor de fundo do botão */
+    border: none; /* Remove a borda do botão */
+    color: white; /* Define a cor do texto dentro do botão */
+    padding: 10px 27px; /* Define o preenchimento interno do botão */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    text-decoration: none; /* Remove qualquer decoração de texto do botão */
+    display: inline-block; /* Faz com que o botão seja exibido em linha */
+    font-size: 16px; /* Define o tamanho da fonte do texto dentro do botão */
+    margin: 4px 2px; /* Define a margem externa do botão */
+    cursor: pointer; /* Transforma o ponteiro do mouse em uma mão quando passa sobre o botão */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao botão */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adiciona uma sombra ao botão */
+}
+
+.meu-botao:hover {
+    background-color: #3e8e41; /* Muda a cor de fundo quando o mouse passa sobre o botão */
+    transition-duration: 0.5s;
+}
+
+input{
+    color: gray;
+}
+
+div#cadastro{
+    font-size: small;
+}
+
+.login{
+    padding: 0px;
+    background-color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    margin: 2px 2px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2)
+}
